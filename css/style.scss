@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: #aaa !important;
+    // color: #aaa !important;
     text-decoration: none;
 
     &:visited {
@@ -290,16 +290,28 @@ pre {
         }
     }
 }
-
-.post {
+.numberStyle {
   font-family: "Source Sans Pro";
-  font-size: 18px;
   font-weight: 300;
-  padding-top: 0;
+  letter-spacing: 2px;
 }
-.home{
-  padding-bottom: 5em;
+.categoryTitle {
+  margin: 50px auto;
 }
+.postList {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.postList > a {
+  color: black;
+  font-size: 1.5rem;
+  border-bottom: 1px dotted black;
+}
+.postList > span {
+  font-size:1rem;
+  color: #aaa;
+}
+
 .download {
   padding: 10px;
 }
@@ -340,30 +352,11 @@ pre {
   letter-spacing: 2px;
   text-indent: 2px;
 }
-.postContent {
-  padding-top: 3.5em;
-  text-align: center;
-}
-.postDate {
-  float: left;
-  text-transform: uppercase;
-  font-family: "Source Sans Pro";
-  font-size: 16px;
-  font-weight: 300;
-  letter-spacing: 2px;
-  text-indent: 2px;
-}
+
 .postTag {
   float: right;
 }
-.postTitle {
-  font-weight: 400;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  text-indent: 3px;
-  font-size: 1.5rem;
-}
+
 .postExt {
   margin-top: 20px;
   font-size: 1rem;
