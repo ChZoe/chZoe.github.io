@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "实现萧井陌python教学基础题"
+title:  "js实现萧井陌python教学题"
 date:   2016-06-09 19:45:31 +0530
 categories: ["2016"]
 tag: ["#技能基础"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "一个工作流程实践总结"
+title:  "工作流程实践总结"
 date:   2016-05-08 19:45:31 +0530
 categories: ["2016"]
 tag: ["#心得"]
